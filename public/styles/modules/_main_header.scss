@@ -1,0 +1,63 @@
+.main-header {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(175, 165, 165, 0.6);
+
+  .left {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex: 1 1;
+
+    h2 {
+      position: relative;
+
+      margin: 0;
+
+      color: #474646;
+      font-size: 1.4rem;
+      font-weight: bold;
+
+      .arrow {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        right: 20px;
+        top: 50%;
+        margin-top: -15px;
+      }
+    }
+  }
+
+  .right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 1 1;
+
+    .search {
+      width: 200px;
+      font-size: 1.1rem;
+    }
+      
+      ul {
+          list-style-type: none;
+          padding: 0;
+          margin: 0;
+         li 
+            {
+            background-image: url(icons/ic_settings.png);
+            background-repeat: no-repeat;
+            background-position: 4em;
+//            padding-left: .6em;
+            }
+          
+      }  
+      
+      .menu {
+          border: 1px solid rgba(123, 134, 142, 0.72);;
+      }
+  }
+}
+
+
